@@ -1,0 +1,1 @@
+A monty Stack is a linear data structure where removal and insertion occur at the same end. A Monty Queue is also a linear data structure, but removal and insertion happen at different ends. A Stack follows the Last In, First Out (LIFO) principle, meaning the most recently inserted element is removed first.
