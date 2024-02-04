@@ -61,7 +61,7 @@ typedef struct instruction_s
 	void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
 
-void myPush(stack_t **start, unsigned int iterator);
+/**void myPush(stack_t **start, unsigned int iterator);*/
 void myPall(stack_t **start, unsigned int iterator);
 void myPint(stack_t **start, unsigned int iterator);
 void myPop(stack_t **start, unsigned int iterator);
