@@ -20,7 +20,7 @@ void myPush(stack_t **start, unsigned int iterator)
 		free_allstacks(*start);
 		exit(EXIT_FAILURE);
 	}
-	/*val = atoi(arguments);*/
+	*val = atoi(arguments);
 	new = malloc(sizeof(stack_t));
 
 	if (!new)
